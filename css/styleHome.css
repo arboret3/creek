@@ -1,0 +1,1232 @@
+body {
+    width: 100%;
+    margin: 0;
+    z-index: 2;
+}
+
+#underCon {
+    width: 100%;
+    text-align: center
+}
+
+#underCon h1 {
+    font-size: 2vw;
+    color: black;
+}
+
+#underCon a {
+    color: blue;
+}
+
+#greyLayer {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    background-color: black;
+    opacity: 85%;
+    width: 100%;
+    height: 100%;
+}
+
+h1, a, p, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: IBM Plex Sans;
+}
+
+header {
+    display: inherit;
+    height: 150px;
+    background-color: #214159;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+#headerWide {
+    height: 150px;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#leftSideHeader {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#leftSideHeader img {
+    height: 130px;
+    width: 210px;
+    position: relative;
+    margin-right: 5%;
+}
+
+#leftSideHeader section {
+    display: flex;
+    flex-direction: column;
+}
+
+#leftSideHeader section a:first-child {
+    font-size: 2.2rem;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+#leftSideHeader section a:nth-child(2)  {
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+}
+
+#rightSideHeader {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#rightSideHeader a {
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+}
+
+#headerMobile {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    align-items: center;
+    display: none;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#headerDonate {
+    background-color: #59886F;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    border: 0px;
+}
+
+#headerWide a {
+    font-size: 1.25rem;
+}
+
+#headerMobile svg {
+    fill: white;
+}
+
+#mobMainHeader {
+    display: none;
+}
+
+#headerTabletH1 {
+    display: none;
+}
+
+#headerMobileH1 {
+    display: none;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    width: 45vw;
+    background-color: #59886F;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-bottom: 12px;
+}
+
+#titleContMobile {
+    display: none;
+}
+
+#title h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    font-weight: semi-bold;
+}
+
+#title p {
+    font-size: 1.2rem;
+}
+
+main {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+#photoCredits {
+    width: 95%;
+    margin: auto;
+    text-align: right;
+    color: grey;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+#withHelpSection {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2.5%;
+    margin-bottom: 80px;
+}
+
+#withHelpTablet {
+    display: none;
+}
+
+#withHelpMobile {
+    display: none;
+}
+
+#withHelpTitle {
+    padding-left: 2.5%;
+    width: 40vw;
+    background-color: #59886F;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+#withHelpTitle {
+    font-weight: 400;
+}
+
+#withHelpArt1 {
+    grid-column: 1 / span 2;
+}
+
+#withHelpArt2 {
+    grid-column: 3 / span 2;
+}
+
+#withHelpArt3 {
+    grid-column: 5 / span 2;
+}
+
+#withHelpSection p {
+    color: black;
+    font-size: 1.25rem;
+}
+
+#withHelpSection a {
+    font-size: 1.25rem;
+}
+
+#mobileArticleHeader {
+    display: none;
+}
+
+#articles {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 0px;
+    column-gap: 2.5%;
+    margin-bottom: 150px;
+    row-gap: 4%;
+}
+
+#firstCard {
+    grid-row: 1;
+    grid-column: 1fr;
+    background-color: #59886F;
+    width: 100%;
+    height: 100%;
+}
+
+#firstCard p {
+    text-align: left;
+    color: white;
+    font-size: 1.7rem;
+    margin-bottom: 1%;
+    margin-top: 7%;
+    margin-left: 7%;
+    font-weight: bold;
+}
+
+#firstCard h2 {
+    text-align: left;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 7%;
+    margin-top: 5%;
+    font-weight: 400;
+}
+
+.row1Card {
+    grid-column: 1fr;
+    grid-row: 1;
+    height: 28vw;
+}
+
+.row2Card {
+    grid-column: 1fr;
+    grid-row: 2;
+    height: 28vw;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.cardText {
+    display: flex;
+    color: white;
+    font-size: 2.5rem;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    margin-left: 7%;
+    margin-bottom: 7%;
+    font-weight: bold;
+}
+
+.cardNumber {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    color: white;
+    font-size: 2.5rem;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.opaqueLayer {
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 55%;
+    position: absolute;
+}
+
+.hoverLayer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0%;
+    z-index: 3;
+}
+
+
+#banner {
+    height: 100%;
+    grid-column: 1 / span 4;
+}
+
+#banner img {
+    position: relative;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+#banner svg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.st {
+    fill: white;
+    opacity: 0;
+    z-index: 3;
+    transition: opacity 1s;
+}
+
+.st:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.sh {
+    color: blue;
+    cursor: pointer;
+}
+
+#birdViewerCont {
+    z-index: 11;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+}
+
+#birdViewer {
+    position: relative;
+    background-color: white;
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#birdPhoto {
+    width: 50%;
+    object-fit: cover;
+}
+
+#birdInfo {
+    width: 50%;
+    padding: 20px;
+    position: relative;
+}
+
+#birdInfo h1 {
+    font-size: 1.7vw;
+}
+
+#birdInfo h2 {
+    font-size: 1.2vw;
+    opacity: .6;
+}
+
+#birdInfo p {
+    font-size: 1.2vw;
+}
+
+#birdInfo a {
+    font-size: 1.2vw;
+    color: blue;
+}
+
+#birdInfo footer{
+    position: absolute;
+    width: auto;
+    bottom: 0;
+    height: auto;
+    background-color: white;
+    vertical-align: bottom;
+    padding-bottom: 4%;
+}
+
+#birdInfo footer p {
+    font-size: 1.2vw;
+    color: black;
+}
+
+#birdInfo footer a {
+    font-size: 1.2vw;
+    color: blue;
+}
+
+#birdViewer svg {
+    position: absolute;
+    right: 2%;
+    top: 4%;
+    width: 2vw;
+    height: 2vw;
+}
+
+#birdViewer svg:hover {
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background-color: #214159;
+}
+
+#footerOrganizer {
+    
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#footerOrganizer article {
+    grid-column: 1fr;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#footerOrganizer article p {
+    color: white;
+    font-size: 1.25rem;
+}
+
+#articleLinks {
+    text-align: right;
+}
+
+#articleLinks a {
+    color: white;
+    font-size: 1.25rem;
+}
+
+/*--------Add Water Modal Begins--------*/
+
+#addWaterModalCont {
+    position: fixed;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+}
+
+#addWaterModal {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 65%;
+    z-index: 11;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+}
+
+#addWaterModal svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#addWaterModal h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#addWaterBody {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+#addWaterPara1 {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+#addWaterPara1 h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #214159;
+}
+
+#para1FinalP {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#para1FinalP span {
+    color: green;
+    font-weight: 800;
+}
+
+#addWaterPara2 {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+#addWaterPara2 h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #214159;
+}
+
+#para2PenultimateP {
+    margin-left: 15px;
+}
+
+
+/*-------------Add Water Modal Ends-----------*/
+
+/*---------Add Fish Modal begins--------*/
+
+#addFishModalCont {
+    position: fixed;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+}
+
+#addFishModal {
+    display: flex;
+    position: relative;
+    width: 70%;
+    z-index: 11;
+    padding: 20px;
+    margin: auto;
+    flex-direction: column;
+    z-index: 10;
+    background-color: white;
+    overflow-y: auto;
+
+}
+
+#addFishModal svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#addFishHead {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#addFishHead h1 {
+    font-size: 25px;
+}
+
+#addFishBody {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#addFishPara {
+    display: flex;
+    font-size: 17px;
+    flex-direction: column;
+    width: 48%;
+    height: auto;
+    overflow-y: auto;
+}
+
+
+#addFishPara span {
+    color: green;
+}
+
+#addFishPics {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#fishPic1 {
+    margin-bottom: 30px;
+}
+
+#addFishPics img {
+    width: 100%;
+    height: 250px;
+    background-color: grey;
+    object-fit: cover;
+}
+
+/*-------Add Fish Modal Ends--------*/
+
+
+/*---------Add Plants Modal Begins------------*/
+
+#addPlantsModalCont {
+    position: fixed;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+}
+
+#addPlantsModal {
+    display: flex;
+    position: relative;
+    width: 70%;
+    z-index: 10;
+    margin: auto;
+    flex-direction: row;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#addPlantsBody {
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+#addPlantsModal img {
+    width: 50%;
+    object-fit: cover;
+    
+}
+
+#addPlantsBody h1 {
+    margin-bottom: 10px;
+    font-size: 1.7vw;
+}
+
+#addPlantsBody p, a {
+    font-size: 1.1vw;
+}
+
+#addPlantsModal svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#addFishLink {
+    color: blue;
+    text-decoration: underline;
+}
+
+#addFishLink:hover {
+    cursor: pointer;
+}
+
+
+
+/*---------Add Plants Modal Ends------------*/
+
+/*------Reduce Flooding Modal Begins------*/
+
+#reduceFloodModalCont {
+    position: fixed;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+}
+
+#reduceFloodModal {
+    display: flex;
+    position: relative;
+    width: 60%;
+    z-index: 11;
+    padding: 20px;
+    margin: auto;
+    flex-direction: column;
+    background-color: white;
+    overflow-y: auto;
+}
+
+#reduceFloodBody {
+    position: relative;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#reduceFloodBody h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+#reduceFloodBody p {
+    margin-bottom: 15px;
+}
+
+#reduceFloodModal video {
+    margin-bottom: 15px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+
+}
+
+#reduceFloodModal svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 15px;
+    z-index: 11;
+}
+
+/*-------Reduce Flooding Modal Ends------*/
+
+/*--------Share & Enjoy Modal Begins--------*/
+
+
+#shareEnjoyModalCont {
+    position: fixed;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+}
+
+#shareEnjoyModal {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 75%;
+    z-index: 11;
+    margin: auto;
+    background-color: white;
+}
+
+#shareEnjoyLeft {
+    position: relative;
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#shareEnjoyLeft h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#shareEnjoyBody {
+    width: 100%;
+}
+
+#shareEnjoyBody h1 {
+    font-size: 25px;
+    color: #214159;
+}
+
+#shareEnjoyBody p {
+    font-size: 20px;
+}
+
+#shareEnjoyModal img {
+    width: 50%;
+    object-fit: cover;
+}
+
+#shareEnjoyModal svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+    fill: white;
+}
+
+
+
+/*--------Share & Enjoy Modal Ends--------*/
+
+#modalExit:hover {
+    cursor: pointer;
+}
+
+@media screen 
+and (max-width: 1700px) {
+    #addWaterModal {
+        width: 50%
+    }
+
+    #reduceFloodModal {
+        width: 45%;
+    }
+
+    #addFishModal {
+        width: 55%;
+    }
+
+}
+
+/*--------IPAD STYLESHEET BEGINS---------*/
+
+@media screen
+and (max-width: 1100px) {
+
+    #headerWide {
+        display: none;
+    }
+
+    #headerMobile {
+        display: relative;;
+        width: 100%;
+        background-color: #214159;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #mobileHeaderLeft {
+        display: flex;
+        justify-content: row;
+        width: 100%;
+        align-items: center;
+    }
+
+    #mobileHeaderLeft img {
+        height: 130px;
+        width: 210px;
+        position: relative;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+    }
+
+    #mobileHeaderLeft h1 {
+        font-size: 2.2rem;
+        color: white;
+        font-weight: normal;
+    }
+
+    #headerMobileH1 {
+        display: inherit;
+    }
+
+    #headerMobile svg {
+        position: absolute;
+        right: 2.5%;
+    }
+
+    #title {
+        width: 50vw;
+    }
+
+    #withHelpTitle {
+        width: 47vw;
+    }
+
+    #withHelpSection {
+        display: none;
+    }
+    #withHelpTablet {
+        display: grid;
+        margin: auto;
+        column-gap: 2.5%;
+        width: 95%;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 80px;
+    }
+
+    #withHelpTablet article p{
+        font-size: 1.25rem;
+    }
+
+    #birdViewer svg {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    #addWaterModal {
+        width: 75%;
+    }
+
+    #addFishModal {
+        width: 80%;
+    }
+
+    #reduceFloodModal {
+        width: 70%;
+    }
+
+    #addPlantsModal {
+        width: 85vw;
+    }
+
+    #addPlantsModal h1 {
+        font-size: 2.2vw;
+    }
+
+    #addPlantsModal p, a {
+        font-size: 1.5vw;
+    }
+
+    #shareEnjoyModal {
+        width: 90%;
+    }
+}
+
+/*--------IPAD STYLESHEET ENDS---------*/
+
+@media screen 
+and (max-width: 1000px) {
+    #headerWide {
+        display: none;
+    }
+
+    #headerMobileH1 {
+        display: inherit;
+    }
+
+    header {
+        margin-bottom: 0px;
+    }
+
+    #title {
+        display: none;
+    }
+
+    #titleContMobile {
+        display: inherit;
+        width: 100%;
+        padding-top: 20px;
+        height: 100px;
+        background-color: #59886F;
+    }
+
+    #titleMobile {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #titleMobile h1 {
+        margin-top: 5px;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    #titleMobile p {
+        font-size: 1.1rem;
+        color: white;
+    }
+
+    #withHelpTitle h1 {
+        font-size: 3.5vw;
+    }
+
+    #addWaterModal {
+        width: 85%;
+    }
+
+    #addFishModal {
+        width: 85%;
+    }
+
+    #reduceFloodModal {
+        width: 75%;
+    }
+
+    #addPlantsModal {
+        width: 90%;
+    }
+
+    #addPlantsModal h1 {
+        font-size: 2.2vw;
+    }
+
+    #addPlantsModal p, a {
+        font-size: 1.5vw;
+    }
+
+    #shareEnjoyModal {
+        width: 95%;
+    }
+}
+
+/*---------MOBILE STYLESHEET BEGINS-----------*/
+
+@media screen
+and (max-width: 700px) {
+
+    header {
+        display: inherit;
+        height: 100px;
+        margin-bottom: 0px;
+    }
+
+    #headerMobile {
+        height: 120px;
+        display: inherit;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #headerMobile h1 {
+        margin-left: 2.5%;
+        font-size: 1.8rem;
+    }
+
+    #headerMobile svg {
+        position: relative;
+    }
+
+    #mobileHeaderLeft img {
+        display: none;
+    }
+
+
+    #title {
+        display: none;
+    }
+
+    #titleContMobile {
+        display: inherit;
+        width: 100%;
+        height: 130px;
+        background-color: #59886F;
+        padding-top: 0;
+        margin-bottom: 15px;
+    }
+
+    #titleMobile {
+        height: 130px;
+        margin-left: 2.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #titleMobile h1 {
+        color: white;
+        font-size: 1.7rem;
+    }
+
+    #titleMobile p {
+        font-size: 1rem;
+    }
+
+    #photoCredits {
+        margin-bottom: 10px;
+    }
+
+    #photoCredits p {
+        font-size: .75rem;
+    }
+
+    #withHelpTitle {
+        padding-left: 0%;
+        width: 100%;
+        height: 70px;
+    }
+
+    #withHelpTitle h1 {
+        margin-left: 2.5%;
+        font-size: 1.7rem;
+    }
+
+    #withHelpTablet {
+        display: none;
+    }
+
+    #withHelpMobile {
+        width: 95%;
+        margin: auto;
+        display: inherit;
+        margin-bottom: 30px;
+    }
+
+    #withHelpMobile article p {
+        font-size: 1rem;
+    }
+
+    #mobileArticleHeader {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        background-color: #59886F;
+        margin-bottom: 30px;
+    }
+
+    #mobileArticleHeader h1 {
+        color: white;
+        font-size: 1.8rem;
+        margin-left: 2.5%;
+    }
+
+    #articles {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        width: 95%;
+        column-gap: 0%;
+        row-gap: 1%;
+    }
+
+    #firstCard {
+        display: none;
+    }
+
+    .card {
+        height: 70vw;
+    }
+
+    .row1Card {
+        grid-row: auto;
+        grid-column: 1fr;
+    }
+
+    .row2Card {
+        grid-row: auto;
+        grid-column: 1fr;
+    }
+
+    #addFishModal {
+        width: 90%;
+    }
+
+    #addFishModal h1 {
+        font-size: 25px;
+    }
+
+    #addFishModal p {
+        font-size: 15px;
+    }
+
+    #reduceFloodModal {
+        width: 85%;
+    }
+    
+    }
+
+
+
