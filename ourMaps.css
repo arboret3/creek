@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+h1, a, p, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: IBM Plex Sans;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    background-color: #214159;
+}
+
+#headerWide {
+    width: 95%;
+    margin: auto;
+    background-color: #214159;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+
+#leftSideHeader {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#leftSideHeader img {
+    height: 130px;
+    width: 210px;
+    position: relative;
+    margin-right: 5%;
+}
+
+#leftSideHeader section {
+    display: flex;
+    flex-direction: column;
+}
+
+#leftSideHeader section a:first-child {
+    font-size: 2.2rem;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+#leftSideHeader section a:nth-child(2)  {
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+}
+
+#rightSideHeader {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#rightSideHeader a {
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+}
+
+#headerDonate {
+    background-color: #59886F;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    border: 0px;
+}
+
+#headerMobile {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    align-items: center;
+    display: none;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#headerMobile svg {
+    fill: white;
+}
+
+#title {
+    width: 100%;
+    background-color: #59886F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+#title h1 {
+    color: white;
+    font-weight: 500;
+    font-family: ibm plex sans;
+}
+
+footer {
+    width: 100%;
+    background-color: #214159;
+}
+
+#footerOrganizer {
+    
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#footerOrganizer article {
+    grid-column: 1fr;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#footerOrganizer article p {
+    color: white;
+    font-size: 1.25rem;
+}
+
+#articleLinks {
+    text-align: right;
+}
+
+#articleLinks a {
+    color: white;
+    font-size: 1.25rem;
+}
+
+#TenPercentDesignMap{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#TenPercentDesignMap img {
+    position: relative;
+    width: 816px;
+    height: 1056px;
+    margin-bottom: 50px;
+}
