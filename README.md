@@ -1,6 +1,12 @@
 Readme
 
-Process for Uploading
+Process for Uploading from PC to GitHub
+
+1. File, Save
+
+2. Open the local file in browser, check changes
+
+Process for Uploading to Blue Host
 
 1. Go here: https://box2380.bluehost.com:2083/cpsess4773454495/frontend/bluehost/filemanager/index.html
 
