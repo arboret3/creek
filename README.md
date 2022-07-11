@@ -14,6 +14,11 @@ Process for Uploading from PC to GitHub
 
 6. Select the carrot next to Commit and select Commit and Push
 
+7. Add Edit Message, Save
+
+8. Clcik (small) check mark on top right.
+
+
 Process for Uploading to Blue Host
 
 1. Go here: https://box2380.bluehost.com:2083/cpsess4773454495/frontend/bluehost/filemanager/index.html
