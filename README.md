@@ -6,6 +6,14 @@ Process for Uploading from PC to GitHub
 
 2. Open the local file in browser, check changes
 
+3. Select source control tab, select change file
+
+4. Check changes (it should show both codes before and after)
+
+5. Press Plus button for each validated file changed
+
+6. Select the carrot next to Commit and select Commit and Push
+
 Process for Uploading to Blue Host
 
 1. Go here: https://box2380.bluehost.com:2083/cpsess4773454495/frontend/bluehost/filemanager/index.html
