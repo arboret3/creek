@@ -158,3 +158,25 @@ footer {
     height: 1056px;
     margin-bottom: 50px;
 }
+
+#mainBody {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#mainBody h1 {
+    font-size: 1.8rem;
+    font-weight: semi-bold;
+}
+
+#mainBody p {
+    font-size: 1.5rem;
+}
+
+#mainBody li {
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: IBM plex sans;
+    line-height: 45px;
+}
