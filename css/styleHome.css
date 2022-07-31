@@ -177,6 +177,26 @@ main {
     margin-bottom: 10px;
 }
 
+
+#photoCaption1 {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+#photoCaption2 {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+
 #photoCredits {
     width: 95%;
     margin: auto;
