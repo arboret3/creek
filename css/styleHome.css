@@ -905,11 +905,17 @@ and (max-width: 1700px) {
     }
 
 }
-/*for flipped iphones*/
+/*for flipped phones*/
 @media screen
 and (max-width: 1100px)and (max-height: 500px){
-    #leftSideHeader{
+    /*#leftSideHeader{
         display: none;
+    }*/
+    #leftSideHeader section a:nth-child(2)  {
+        display:none;
+    }
+    #leftSideHeader img  {
+        display:none;
     }
     #rightSideHeader {
         width: 95%;
